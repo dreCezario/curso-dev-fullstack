@@ -1,0 +1,15 @@
+body {
+    background-image: url(AD.jpeg);
+    background-repeat: no-repeat;
+    /*background-position: 100%, 10%; */
+    background-position: center center;
+    background-attachment: fixed; 
+    background-size: cover;
+
+}
+p {
+    color:#252525;
+}
+.foto-principal {
+    width: 200px;
+}
