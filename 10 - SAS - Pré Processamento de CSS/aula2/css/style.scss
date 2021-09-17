@@ -1,0 +1,51 @@
+
+@import 'base';
+@import 'var';
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+    .box {
+        width: 32%;
+        background-color: white;
+        color: black;
+        border-radius: 8px;
+        padding: 20px;
+        margin: {
+            top: 10px;
+            left: 20px;
+            bottom: 30px;
+            right: 20px;
+        }
+
+        &.trap {
+            background-color: $color-secondary;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+        
+        p {
+            font-size: 18px;
+
+            &.hidden {
+                display: none;
+            }
+        }
+
+        a {
+            color: red;
+
+            &:hover {
+                color: blue;
+
+                & + p.hidden {
+                    display: block;
+                    background-color: $color-primary;
+                }
+            }
+        }
+    }
+}
