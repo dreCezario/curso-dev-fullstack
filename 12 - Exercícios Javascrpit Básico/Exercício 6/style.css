@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 15px;
+}
+
+#box {
+    display: flex;
+    box-sizing: border-box;
+    
+}
+
+#box > div {
+    background-color: rgb(201, 199, 199);
+    width: 33%;
+    margin-top: 15px;
+    padding: 25px;
+    border-radius: 7px;
+    box-shadow: 2px 2px;
+    
+}
+
+#box #caixa2 {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+div > h2 {
+    margin-bottom: 15px;
+}
+
+div > p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
