@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+const alunos = [
+{
+  nome: 'Maria',
+  sobrenome: 'da Silva',
+  nota: 10,
+},
+
+{
+  nome: 'José',
+  sobrenome: 'Moreira',
+  nota: 4,
+},
+
+{
+  nome: 'Paulo',
+  sobrenome: 'Henrique',
+  nota: 7,
+},
+
+{
+  nome: 'Pedro',
+  sobrenome: 'Souza',
+  nota: 5,
+},
+
+]
+
+const alunosAcimaDaMedia = alunos.filter(aluno => {
+  let retorno = false
+
+  if(aluno.nota >= 6) {
+    retorno = true
+  }
+
+  return retorno
+})
+
+console.log(alunosAcimaDaMedia)
+
+
+</script>
