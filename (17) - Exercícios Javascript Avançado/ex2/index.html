@@ -35,16 +35,9 @@ const alunos = [
 },
 
 ]
+const media = 7
 
-const alunosAcimaDaMedia = alunos.filter(aluno => {
-  let retorno = false
-
-  if(aluno.nota >= 6) {
-    retorno = true
-  }
-
-  return retorno
-})
+const alunosAcimaDaMedia = alunos.filter(aluno => aluno.nota >= media )
 
 console.log(alunosAcimaDaMedia)
 

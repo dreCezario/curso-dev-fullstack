@@ -1,7 +1,7 @@
 let diaSemana = new Date().getDay()
 
 let nomeDiaSemana
-
+console.log(diaSemana)
 switch(diaSemana) {
     case 0:
         nomeDiaSemana = 'Domingo'
